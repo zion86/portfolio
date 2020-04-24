@@ -1,0 +1,280 @@
+@font-face {
+  font-family: 'Playfair Display Black';
+  src: url(fonts/PlayfairDisplay-Black.ttf);
+  font-family: 'Roboto';
+  src: url(fonts/Roboto-Regular.ttf); }
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+.page {
+  margin: 0 auto;
+  max-width: 1440px;
+  width: 100%;
+  font-family: "Roboto";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #000000;
+  background-color: #FFFFFF; }
+  .page__header {
+    margin-top: 60px; }
+  .page__nav {
+    margin-top: 46px; }
+  .page__hotel {
+    margin-top: 47px; }
+  .page__reviews {
+    margin-top: 44px; }
+  .page__tickets {
+    margin-top: 51px; }
+  .page__footer {
+    margin-top: 50px; }
+
+.header__title {
+  font-family: "Playfair Display Black";
+  font-size: 40px; }
+
+.nav {
+  width: 100%;
+  max-width: 1170px; }
+  .nav__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none; }
+  .nav__link {
+    font-size: 15px;
+    color: #000000;
+    letter-spacing: 2px;
+    text-decoration: none; }
+    .nav__link--color {
+      color: #FFFFFF; }
+
+.hotel {
+  width: 100%;
+  min-height: 464px;
+  background-image: url(img/bg-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  color: #FFFFFF; }
+  .hotel__img {
+    margin-top: 46px; }
+  .hotel__title {
+    margin-top: 32px;
+    font-size: 72px;
+    letter-spacing: 2px;
+    text-transform: uppercase; }
+  .hotel__text {
+    margin-top: 139px;
+    max-width: 456px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center; }
+
+.reviews {
+  max-width: 1170px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  .reviews__title {
+    font-size: 17px;
+    letter-spacing: 2px; }
+  .reviews__wrapper {
+    margin-top: 20px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; }
+
+.review {
+  max-width: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+  .review:not(:last-child) {
+    margin-right: 29px; }
+  .review__img {
+    max-width: 100%;
+    height: auto; }
+  .review__title {
+    margin-top: 20px;
+    font-family: "Playfair Display Black";
+    font-size: 23px; }
+    .review__title--orange {
+      color: #FF7931; }
+  .review__text {
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 21px; }
+
+.tickets {
+  width: 100%;
+  height: 556px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F7F7F7;
+  background-image: url(img/ellipse-1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden; }
+  .tickets__title {
+    margin-top: 33px;
+    font-size: 17px;
+    letter-spacing: 2px; }
+  .tickets__wrapper {
+    margin-top: 35px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+.ticket {
+  margin-bottom: 24px;
+  width: 370px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .ticket__title {
+    font-family: "Playfair Display Black";
+    font-size: 23px; }
+  .ticket__text {
+    margin-top: 10px;
+    min-height: 63px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center; }
+  .ticket__button {
+    border: none;
+    width: 170px;
+    height: 47px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #FF7931;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    letter-spacing: 2px; }
+
+.footer {
+  width: 100%;
+  height: 295px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #575757; }
+  .footer__title {
+    margin-top: 26px;
+    font-family: "Playfair Display Black";
+    font-size: 28px;
+    color: #FFFFFF; }
+  .footer__nav {
+    margin-top: 32px; }
+  .footer__line {
+    margin-top: 46px;
+    max-width: 1170px;
+    width: 100%;
+    color: #FFFFFF; }
+  .footer__social {
+    margin-top: 42px; }
+
+.social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none; }
+  .social__item {
+    width: 47px;
+    height: 47px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #FFFFFF; }
+    .social__item:not(:last-child) {
+      margin-right: 14px; }
