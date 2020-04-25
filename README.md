@@ -1,3 +1,3 @@
 # portfolio
 
-[https://zion86.github.io/portfolio/index.html#](example)
+[example](https://zion86.github.io/portfolio/index.html)
