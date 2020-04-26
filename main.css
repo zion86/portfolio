@@ -8,7 +8,7 @@
   width: 100%; }
   .header__title {
     font-family: "Playfair Display Black";
-    font-size: 35px;
+    font-size: 25px;
     line-height: 47px;
     text-align: center; }
   .header__nav {
@@ -37,6 +37,8 @@
     color: #FFFFFF; }
 
 @media (min-width: 850px) {
+  .header__title {
+    font-size: 35px;}
   .nav__list {
     flex-direction: row;
     flex-wrap: wrap;
