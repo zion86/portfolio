@@ -8,33 +8,44 @@
 
 <body class="page">
 
+  <!-- HEADER -->
   <header class="header page__header">
-    <div class="container">
-      <h1 class="header__title">Новости культуры</h1>
-    </div>
-  </header>
+  <div class="container">
 
-  <nav class="nav page__nav">
-    <ul class="nav__list">
-      <li class="nav__item"><a class="nav__link" href="#">НОВОСТИ</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">ОБЗОРЫ</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">МУЗЫКА</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">АРХИТЕКТУРА</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">КИНО</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">ТЕАТР</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">ЛИТЕРАТУРА</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">РЕЛИГИЯ</a></li>
-      <li class="nav__item"><a class="nav__link" href="#">ЖИВОПИСЬ</a></li>
-    </ul>
-  </nav>
+    <h1 class="header__title">Новости культуры</h1>
 
-  <section class="hotel page__hotel">
-    <img class="hotel__img" src="img/btn_icon.png" alt="icon">
-    <h2 class="hotel__title">Подводный отель</h2>
-    <p class="hotel__text">Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти</p>
-  </section>
+    <nav class="nav header__nav">
+      <ul class="nav__list">
+        <li class="nav__item"><a class="nav__link" href="#">НОВОСТИ</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">ОБЗОРЫ</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">МУЗЫКА</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">АРХИТЕКТУРА</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">КИНО</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">ТЕАТР</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">ЛИТЕРАТУРА</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">РЕЛИГИЯ</a></li>
+        <li class="nav__item"><a class="nav__link" href="#">ЖИВОПИСЬ</a></li>
+      </ul>
+    </nav>
 
-  <section class="reviews page__reviews">
+  </div>
+</header>
+
+  <!-- MAIN -->
+  <main class="main page__main">
+
+    <!-- HOTEL component -->
+    <section class="hotel">
+  <img class="hotel__img" src="img/btn_icon.png" alt="icon" width="55" height="55">
+  <h2 class="hotel__title">Подводный отель</h2>
+  <p class="hotel__text">
+    Как известно, Дубай – город контрастов. Самые революционные и фантастические мечты архитекторов способен воплотить в жизнь этот мегаполис, построенный на нефти и за счет нефти
+  </p>
+</section>
+
+    <!-- REVIEWS component -->
+    <section class="reviews main__reviews">
+  <div class="container">
     <h4 class="reviews__title">ОБЗОРЫ</h4>
 
     <div class="reviews__wrapper">
@@ -43,85 +54,94 @@
         <h3 class="review__title">«Шальные годы» Монпарнаса</h3>
         <p class="review__text">В Музее изобразительных искусств имени Пушкина с 29 сентября по 29 ноября проходит выставка «Шальные годы Монпарнаса»</p>
       </div>
-  
+
       <div class="review">
         <img class="review__img" src="img/pic-2.jpg" alt="pic-2">
         <h3 class="review__title review__title--orange">Анатомия за 30 секунд</h3>
         <p class="review__text">Сейчас, когда мир открыт нараспашку для человека и его познавательных изысканий, интерес к научно‑популярной литературе заметно вырос</p>
       </div>
-  
+
       <div class="review">
         <img class="review__img" src="img/pic-3.jpg" alt="pic-3">
         <h3 class="review__title">Сферические чудаки</h3>
         <p class="review__text">Корреспондентам «Культурного обозревателя» посчастливилось побывать в театре «Сфера» на премьере спектакля «Чудаки и зануды» </p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="tickets page__tickets">
-    <h4 class="tickets__title">АБОНЕМЕНТЫ В ТЕАТР</h4>
+    <!-- TICKETS component -->
+    <section class="tickets main__tickets">
+  <h4 class="tickets__title">АБОНЕМЕНТЫ В ТЕАТР</h4>
 
-    <div class="tickets__wrapper">
-      <div class="ticket">
-        <h4 class="ticket__title">Скидка 50% на весь сезон 2020</h4>
-        <p class="ticket__text">Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</p>
-      </div>
-  
-      <div class="ticket">
-        <h4 class="ticket__title">Места у сцены</h4>
-        <p class="ticket__text">Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
-      </div>
-  
-      <div class="ticket">
-        <h4 class="ticket__title">Автограф-сессия актёров</h4>
-        <p class="ticket__text">После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</p>
-      </div>
-  
-      <button class="ticket__button">
-        смотреть <img src="img/arrow-forward.png">
-      </button>
+  <div class="tickets__wrapper">
+    <div class="ticket">
+      <h4 class="ticket__title">Скидка 50% на весь сезон 2020</h4>
+      <p class="ticket__text">Покупая абонемент на сезон 2020 года вы сэкономите половину стоимости всех спектаклей</p>
     </div>
-  </section>
+
+    <div class="ticket">
+      <h4 class="ticket__title">Места у сцены</h4>
+      <p class="ticket__text">Только для обладателей абонементов будет возможность сесть поближе к сцене</p>
+    </div>
+
+    <div class="ticket">
+      <h4 class="ticket__title">Автограф-сессия актёров</h4>
+      <p class="ticket__text">После спектаклей у вас будет возможность пообщаться с актёрами и взять у них автограф</p>
+    </div>
+
+    <button class="ticket__button">
+      смотреть <img src="img/arrow-forward.png">
+    </button>
+  </div>
+</section>
+
+  </main>
   
+  <!-- FOOTER component -->
   <footer class="footer page__footer">
-    <h3 class="footer__title">Новости культуры</h3>
+  <div class="container">
+    <div class="footer__wrapper">
+      <h3 class="footer__title">Новости культуры</h3>
 
-    <nav class="nav footer__nav">
-      <ul class="nav__list">
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">НОВОСТИ</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">ОБЗОРЫ</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">МУЗЫКА</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">АРХИТЕКТУРА</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">КИНО</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">ТЕАТР</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">ЛИТЕРАТУРА</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">РЕЛИГИЯ</a></li>
-        <li class="nav__item"><a class="nav__link nav__link--color" href="#">ЖИВОПИСЬ</a></li>
+      <nav class="nav footer__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">НОВОСТИ</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">ОБЗОРЫ</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">МУЗЫКА</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">АРХИТЕКТУРА</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">КИНО</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">ТЕАТР</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">ЛИТЕРАТУРА</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">РЕЛИГИЯ</a></li>
+          <li class="nav__item"><a class="nav__link nav__link--color" href="#">ЖИВОПИСЬ</a></li>
+        </ul>
+      </nav>
+
+      <hr class="footer__line">
+
+      <ul class="social footer__social">
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__icon" src="img/instagram_icon.svg" alt="icon-1">
+          </a>
+
+        </li>
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__icon" src="img/facebook_icon.svg" alt="icon-2">
+          </a>
+        </li>
+
+        <li class="social__item">
+          <a class="social__link" href="#">
+            <img class="social__icon" src="img/twitter_icon.svg" alt="icon-3">
+          </a>
+        </li>
       </ul>
-    </nav>
-
-    <hr class="footer__line">
-
-    <ul class="social footer__social">
-      <li class="social__item">
-        <a class="social__link" href="#">
-          <img class="social__icon" src="img/instagram_icon.svg" alt="icon-1">
-        </a>
-
-      </li>
-      <li class="social__item">
-        <a class="social__link" href="#">
-          <img class="social__icon" src="img/facebook_icon.svg" alt="icon-2">
-        </a>
-      </li>
-
-      <li class="social__item">
-        <a class="social__link" href="#">
-          <img class="social__icon" src="img/twitter_icon.svg" alt="icon-3">
-        </a>
-      </li>
-    </ul>
-  </footer>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
