@@ -8,7 +8,7 @@
   width: 100%; }
   .header__title {
     font-family: "Playfair Display Black";
-    font-size: 25px;
+    font-size: 35px;
     line-height: 47px;
     text-align: center; }
   .header__nav {
@@ -37,8 +37,6 @@
     color: #FFFFFF; }
 
 @media (min-width: 850px) {
-  .header__title {
-    font-size: 35px;}
   .nav__list {
     flex-direction: row;
     flex-wrap: wrap;
@@ -61,8 +59,8 @@
     margin-top: 46px; }
   .hotel__title {
     margin-top: 32px;
-    font-size: 72px;
-    line-height: 84px;
+    font-size: 58px;
+    line-height: 74px;
     letter-spacing: 2px;
     text-align: center;
     text-transform: uppercase; }
@@ -75,6 +73,9 @@
     text-align: center; }
 
 @media (min-width: 850px) {
+  .hotel__title {
+    font-size: 65px;
+    line-height: 84px; }
   .hotel__text {
     margin-bottom: 0; } }
 
