@@ -1,15 +1,18 @@
 @font-face {
-  font-family: 'Playfair Display Black';
-  src: url(fonts/PlayfairDisplay-Black.ttf);
+  font-family: 'Playfair Display';
+  src: url(fonts/PlayfairDisplay-Black.ttf); }
+
+@font-face {
   font-family: 'Roboto';
   src: url(fonts/Roboto-Regular.ttf); }
 
 .header {
   width: 100%; }
   .header__title {
-    font-family: "Playfair Display Black";
+    font-family: "Playfair Display";
     font-size: 35px;
     line-height: 47px;
+    letter-spacing: 1px;
     text-align: center; }
   .header__nav {
     margin-top: 46px; }
@@ -100,21 +103,25 @@
   margin-bottom: 20px;
   max-width: 370px;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  text-decoration: none;
+  color: #000000; }
   .review__img {
     max-width: 100%;
     height: auto; }
   .review__title {
     margin-top: 20px;
-    font-family: "Playfair Display Black";
+    font-family: "Playfair Display";
     font-size: 23px;
-    line-height: 31px; }
-    .review__title--orange {
-      color: #FF7931; }
+    line-height: 31px;
+    transition: 0.3s; }
   .review__text {
     margin-top: 10px;
     font-size: 14px;
     line-height: 21px; }
+
+.review:hover .review__title {
+  color: #FF7931; }
 
 @media (min-width: 850px) {
   .review {
@@ -150,7 +157,7 @@
   flex-direction: column;
   align-items: center; }
   .ticket__title {
-    font-family: "Playfair Display Black";
+    font-family: "Playfair Display";
     font-size: 23px;
     line-height: 31px;
     text-align: center; }
@@ -188,7 +195,7 @@
   .footer__title {
     margin-top: 26px;
     color: #FFFFFF;
-    font-family: "Playfair Display Black";
+    font-family: "Playfair Display";
     font-size: 28px;
     line-height: 37px;
     text-align: center; }
