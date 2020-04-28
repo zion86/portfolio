@@ -97,11 +97,15 @@
 
 @media (min-width: 850px) {
   .reviews__wrapper {
-    flex-direction: row; } }
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; } }
 
 .review {
-  margin-bottom: 20px;
+  flex-basis: 320px;
+  flex-grow: 1;
   max-width: 370px;
+  min-height: 350px;
   display: flex;
   flex-direction: column;
   text-decoration: none;
@@ -124,10 +128,8 @@
   color: #FF7931; }
 
 @media (min-width: 850px) {
-  .review {
-    margin-bottom: 0; }
-    .review:not(:last-child) {
-      margin-right: 29px; } }
+  .review:not(:last-child) {
+    margin-right: 29px; } }
 
 .tickets {
   height: 556px;
@@ -152,7 +154,7 @@
 
 .ticket {
   margin-bottom: 24px;
-  width: 370px;
+  max-width: 370px;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -265,4 +267,4 @@
   .main__reviews {
     margin-top: 44px; }
   .main__tickets {
-    margin-top: 51px; }
+    margin-top: 30px; }
