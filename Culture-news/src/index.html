@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новости культуры</title>
+</head>
+
+<body class="page">
+
+  <!-- HEADER -->
+  ${require('./components/header/header.html')}
+
+  <!-- MAIN -->
+  <main class="main page__main">
+
+    <!-- HOTEL component -->
+    ${require('./components/hotel/hotel.html')}
+
+    <!-- REVIEWS component -->
+    ${require('./components/reviews/reviews.html')}
+
+    <!-- TICKETS component -->
+    ${require('./components/tickets/tickets.html')}
+
+  </main>
+  
+  <!-- FOOTER component -->
+  ${require('./components/footer/footer.html')}
+
+</body>
+</html>

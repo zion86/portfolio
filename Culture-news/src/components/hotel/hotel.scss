@@ -1,0 +1,49 @@
+.hotel {
+  min-height: 464px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: $white-color;
+
+  background-image: url(./bg-image.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  &__img {
+    margin-top: 46px;
+  }
+
+  &__title {
+    margin-top: 32px;
+
+    font-size: 53px;
+    line-height: 70px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  &__text {
+    margin-top: 139px;
+    margin-bottom: 40px;
+
+    max-width: 456px;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+  }
+}
+
+@media (min-width: $bp-width) {
+  .hotel__title {
+    font-size: 65px;
+    line-height: 84px;
+  }
+
+  .hotel__text {
+    margin-bottom: 0;
+  }
+}
