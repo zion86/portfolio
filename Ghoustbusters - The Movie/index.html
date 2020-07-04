@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="/js/script.js" defer></script>
+    <title>Ghoustbusters - The Movie</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <div class="header__inner">
+        <img src="/ico/logo.png" alt="logo" class="logo" />
+
+        <div class="search">
+          <img
+            class="search__icon"
+            width="16"
+            height="16"
+            src="/ico/search.png"
+            alt="search"
+          />
+          <input
+            class="search__input"
+            type="text"
+            placeholder="Поиск по фильмам..."
+          />
+        </div>
+
+        <div class="mobile-menu">
+          <span class="mobile-menu__line"></span>
+          <span class="mobile-menu__line"></span>
+          <span class="mobile-menu__line"></span>
+        </div>
+      </div>
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">Фильмы</li>
+          <li class="navigation__item">ТВ</li>
+          <li class="navigation__item">Новости</li>
+          <li class="navigation__item">О сервисе</li>
+        </ul>
+
+        <div class="buttons-groupe">
+          <button class="btn">Регистрация</button>
+          <button class="btn btn--blue">Войти</button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="container">
+        <section class="film">
+          <div class="trailer film__trailer">
+            <img
+              class="trailer__img"
+              width="358"
+              height="464"
+              src="img/trailer.jpg"
+              alt="Trailer image"
+            />
+            <a href="#" class="trailer__link">
+              <svg
+                class="trailer__icon trailer__icon--mr14"
+                width="25"
+                height="25"
+              >
+                <use xlink:href="ico/icons.svg#play"></use>
+              </svg>
+              Посмотреть трейлер
+            </a>
+          </div>
+
+          <div class="description">
+            <h2 class="description__title">
+              Охотники за привидениями: Наследники
+            </h2>
+            <h4 class="description__subtitle">Ghostbusters: Afterlife</h4>
+            <p class="description__text">
+              Мать-одиночка с двумя детьми-подростками селится на старой ферме в
+              Оклахоме, полученной в наследство от отца, которого она не знала.
+              Дети пытаются больше узнать о своем деде и находят автомобиль
+              Ecto-1, принадлежавший знаменитым охотникам за привидениями.
+            </p>
+
+            <table>
+              <tbody>
+                <tr>
+                  <th>Режиссер</th>
+                  <td>Джейсон Райтман</td>
+                </tr>
+                <tr>
+                  <th>Бюджет</th>
+                  <td>1 000 000 $</td>
+                </tr>
+                <tr>
+                  <th>Сценарий</th>
+                  <td>Дэн Эйкройд</td>
+                </tr>
+                <tr>
+                  <th>Кинопрокат</th>
+                  <td>SPPR</td>
+                </tr>
+                <tr>
+                  <th>Премьера</th>
+                  <td>09.07.2020 (РФ)</td>
+                </tr>
+                <tr>
+                  <th>Премьера</th>
+                  <td>09.07.2020 (РФ)</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div class="rating">
+              <span class="rating__top rating__top--mr28">
+                92%
+              </span>
+              <div class="rating__right-side">
+                <h4 class="rating__title">Рейтинг зрителей</h4>
+                <p class="rating__text">Средняя оценка: <b>4,5/5</b></p>
+                <p class="rating__text">Всего голосов: <b>4 350</b></p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <section class="actors-wrapper">
+        <div class="container">
+          <div class="tabs-wrapper tabs-wrapper--mb60">
+            <h4 class="tab tab--active tab--mr30">Актеры</h4>
+            <h4 class="tab">Создатели</h4>
+          </div>
+
+          <div class="cards-wrapper">
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Carrie Coon.png"
+                alt="actor-1"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">Кэрри Кун</h5>
+                <h5 class="card__name-en">Carrie Coon</h5>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Bill Murray.png"
+                alt="actor-2"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">Билл Мюррей</h5>
+                <h5 class="card__name-en">Bill Murray</h5>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Paul Rudd.png"
+                alt="actor-3"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">Пол Радд</h5>
+                <h5 class="card__name-en">Paul Rudd</h5>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Annie Potts.png"
+                alt="actor-4"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">Энни Поттс</h5>
+                <h5 class="card__name-en">Annie Potts</h5>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Mckenna Grace.png"
+                alt="actor-5"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">МакКенна Грейс</h5>
+                <h5 class="card__name-en">Mckenna Grace</h5>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Dan Aykroyd.jpg"
+                alt="actor-6"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">Дэн Эйкройд</h5>
+                <h5 class="card__name-en">Dan Aykroyd</h5>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Ernie Hudson.png"
+                alt="actor-7"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">Эрни Хадсон</h5>
+                <h5 class="card__name-en">Ernie Hudson</h5>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                width="100"
+                height="100"
+                src="img/Finn Wolfhard.png"
+                alt="actor-8"
+                href="#"
+                class="card__img"
+              />
+              <div class="card__name-wrapper">
+                <h5 class="card__name-ru">Финн Вулфард</h5>
+                <h5 class="card__name-en">Finn Wolfhard</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="news-block">
+        <div class="container">
+          <h3 class="news-block__title news-block__title--mb65">
+            Новости по теме
+          </h3>
+
+          <div class="news__wrapper">
+            <div class="news">
+              <time class="news__data">31 марта 2020</time>
+              <h4 class="news__title">
+                «Морбиуса» и «Охотников за привидениями» перенесли на следующий
+                год
+              </h4>
+            </div>
+
+            <div class="news">
+              <time class="news__data">9 декабря 2019</time>
+              <h4 class="news__title">
+                Наследники: Вышел дебютный трейлер новых «Охотников за
+                привидениями»
+              </h4>
+            </div>
+
+            <div class="news">
+              <time class="news__data">11 ноября 2019</time>
+              <h4 class="news__title">
+                Новые «Охотники за привидениями» обзавелись названием
+              </h4>
+            </div>
+
+            <div class="news">
+              <time class="news__data">19 октября 2019</time>
+              <h4 class="news__title">
+                Завершились съёмки новых «Охотников за привидениями»
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
