@@ -205,6 +205,7 @@ p + p {
     background-color: inherit;
     margin-bottom: 0;
     margin-right: 44px;
+    margin-right: 20px;
   }
   .navigation__item {
     font-size: 16px;
@@ -241,9 +242,6 @@ p + p {
   }
   .search {
     display: none;
-  }
-  .navigation__list {
-    margin-right: 20px;
   }
   .btn {
     padding: 11px;
