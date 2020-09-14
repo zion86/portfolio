@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>SpaceX</title>
+</head>
+
+<body>
+  <div class="container">
+
+    <header class="header">
+      <img class="logo" src="img/spacex-logo.svg" alt="SpaceX logo">
+
+      <nav class="header-menu">
+        <ul class="header-menu__list">
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#">Falcon 9</a>
+          </li>
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#">Falcon Heavy</a>
+          </li>
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#">Dragon</a>
+          </li>
+          <li class="header-menu__item">
+            <a class="header-menu__link" href="#">Updates</a>
+          </li>
+        </ul>
+      </nav>
+
+      <nav class="header-sub-menu">
+        <ul class="header-sub-menu__list">
+          <li class="header-sub-menu__item">
+            <a class="header-sub-menu__link" href="#">About</a>
+          </li>
+          <li class="header-sub-menu__item">
+            <a class="header-sub-menu__link" href="#">Gallery</a>
+          </li>
+          <li class="header-sub-menu__item">
+            <a class="header-sub-menu__link" href="#">Shop</a>
+          </li>
+        </ul>
+      </nav>
+
+    </header>
+    <!-- /.header -->
+
+    <section class="about">
+      <h1 class="about__title">Falcon Heavy</h1>
+      <p class="about__description">The most powerful operational rocket in the world by a factor of two</p>
+    </section>
+    <!-- /.about -->
+
+    <video class="video" autoplay="true" loop muted poster="video/poster.jpg">
+      <source src="video/world.webm" type="video/webm">
+      <source src="video/world.mp4" type="video/mp4">
+    </video>
+    <!-- /.video -->
+
+    <section class="overview">
+      <div class="overview__left">
+        <h2 class="overview__title">Falcon Heavy Overview</h2>
+        <table class="overview__table">
+          <tbody class="overview__table-body">
+            <tr class="overview__table-row">
+              <th class="overview__table-head">HEIGHT</th>
+              <td class="overview__table-data">70 m / <span class="overview__table-data--grey">29.6 ft</span></td>
+            </tr>
+            <tr class="overview__table-row">
+              <th class="overview__table-head">DIAMETER</th>
+              <td class="overview__table-data">12.2 m / <span class="overview__table-data--grey">39.9 ft</span></td>
+            </tr>
+            <tr class="overview__table-row">
+              <th class="overview__table-head">MASS</th>
+              <td class="overview__table-data">1,420,788 kg / <span class="overview__table-data--grey">3,125,735 lb</span></td>
+            </tr>
+            <tr class="overview__table-row">
+              <th class="overview__table-head">PAYLOAD TO LEO</th>
+              <td class="overview__table-data">63,800 kg / <span class="overview__table-data--grey">40,660 lb</span></td>
+            </tr>
+            <tr class="overview__table-row">
+              <th class="overview__table-head">PAYLOAD TO GTO</th>
+              <td class="overview__table-data">26,700 kg / <span class="overview__table-data--grey">58,860 lb</span></td>
+            </tr>
+            <tr class="overview__table-row">
+              <th class="overview__table-head">PAYLOAD TO MARS</th>
+              <td class="overview__table-data">16,800 kg / <span class="overview__table-data--grey">37,040 lb</span></td>
+            </tr>
+          </tbody>
+        </table>
+        <h2 class="overview__title">UNMATCHED PERFORMANCE</h2>
+        <p class="overview__description">With more than 5 million pounds of thrust at liftoff, Falcon Heavy is the most capable rocket flying. By comparison, the liftoff thrust of the Falcon Heavy equals approximately eighteen 747 aircraft at full power. Falcon Heavy can lift the equivalent of a fully loaded 737 jetliner—complete with passengers, luggage and fuel—to orbit.</p>
+      </div>
+
+      <div class="overview__right">
+        <img class="overview__img" speed="35" src="img/falcon-heavy.png" alt="Falcon-heavy image">
+      </div>
+    </section>
+    <!-- /.overview -->
+
+    <footer class="footer">
+      <img class="logo" src="img/spacex-logo.svg" alt="SpaceX logo">
+
+      <nav class="footer-menu footer__footer-menu">
+        <ul class="footer-menu__list">
+          <li class="footer-menu__item">
+            <a href="#" class="footer-menu__link">Twitter</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#" class="footer-menu__link">Youtube</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#" class="footer-menu__link">Instagram</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#" class="footer-menu__link">Flickr</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#" class="footer-menu__link">LinkedIn</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#" class="footer-menu__link">Privacy</a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="#" class="footer-menu__link">Policy</a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="footer__description footer__footer-description">For additional questions, contact rideshare@spacex.com</p>
+
+      <button class="footer__btn footer__footer-btn">Contact us</button>
+    </footer>
+    <!-- /.footer -->
+
+  </div>
+  <!-- /.container -->
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
