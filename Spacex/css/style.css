@@ -91,6 +91,7 @@ body {
   font-weight: normal;
   font-size: 64px;
   line-height: 75px;
+  text-align: center;
 }
 .about__description {
   max-width: 267px;
