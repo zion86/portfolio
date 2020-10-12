@@ -2,6 +2,8 @@
 
 [Drons](https://zion86.github.io/portfolio/drons/index.html)
 
+[Blog - [HTML Academy marafon]](https://zion86.github.io/portfolio/Blog/index.html)
+
 [CULTURE NEWS](https://zion86.github.io/portfolio/Culture-news/dist/index.html)
 
 [SpaceX](https://zion86.github.io/portfolio/Spacex/index.html)
