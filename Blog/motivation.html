@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="./js/article.js" defer></script>
+  <title>Motivation</title>
+</head>
+
+<body class="page">
+
+  <header class="page-header">
+    <img class="page-header__bg" src="./img/header-2-bg.jpg" alt="header bg 2">
+    <div class="page-header__inner container">
+      <a class="page-header__logo-link" href="./index.html">
+        <img class="page-header__logo" width="130" height="82" src="ico/logo.png" alt="blog logo">
+      </a>
+      <nav class="page-header__nav">
+        <ul class="page-header__nav-list">
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#">Статьи</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#">Обо мне</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#">Портфолио</a>
+          </li>
+          <li class="page-header__nav-item">
+            <a class="page-header__nav-link" href="#">Написать мне</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- ./page-header -->
+
+  <div class="container">
+    <article class="article-full">
+      <h2 class="article-full__title">Как себя мотивировать</h2>
+      <p class="article-full__tags">Теги: путешествия, друзья <time class="article-full__date">29.09.2020</time></p>
+      <p class="article-full__text">Расскажу о биопсихологической теории личности Джеффри Грея, которая помогла мне разобраться в работе мотивационных стимулов. Узнала я о ней из книги «Воля и самоконтроль. Как гены и мозг мешают нам бороться с соблазнами» Ирины Якутенко.</p>
+      <p class="article-full__text">Согласно этой теории, человеческое поведение контролируют две системы: BAS (Behavior Activation System) и BIS (Behavior Inhibition System), каждая из них обусловлена генетически. Грей использовал её для понимания того, как вознаграждение или наказание связаны с беспокойством и импульсивностью. Самое интересное, что активность этих систем у людей различна. Зная, какая из них доминирует, можно понять, какие стимулы использовать для эффективной мотивации.</p>
+      <figure class="article-full__figure">
+        <img class="article-full__figure-img" src="img/motivation.jpg" alt="Motivation">
+        <figcaption class="article-full__figure-description">Моё поведение регулируется больше BAS, поэтому при планировании целей я всегда использую позитивный стимул.</figcaption>
+      </figure>
+      <p class="article-full__text">BAS (Behavior Activation System) работает на ощущение позитивных эмоций. Мотивация людей, чье поведение в основном определяется этой системой, направлена на получение вознаграждения. Они стремятся получить одобрение и награду за свои действия. Такие люди более мотивированы в учебе и развитии разных навыков. Однако носители активной BAS склонны к импульсивности и желанию немедленного вознаграждения, что может мешать долгосрочной работе. BIS (Behavior Inhibition System) ответственна за избегающее поведение. Люди с этой активной системой мотивируются стремлением избежать проблем. Они более чувствительны к наказанию и новому опыту, а также стремятся избежать ситуаций, когда чувствуют, что могут потерпеть неудачу.</p>
+      <p class="article-full__text">Определив, к какому типу относится поведение, вы узнаете, какие стимулы использовать для достижения поставленной цели. Например, я решила выучить английский — само изучение не является целью, поэтому нужно правильно её сформулировать. Если моё поведение регулируется BAS, мне нужно выбрать своей конечной целью какую-то награду: например, если я выучу английский, то смогу смотреть фильмы в оригинале. Если же я склонна к BIS поведению, целью нужно выбрать избежание проблем: если я заговорю на английском, то не потеряюсь в новой стране. И это можно использовать в различных сферах жизни.</p>
+
+      <div class="article-full__bottom">
+        <div class="like">
+          <svg class="like-icon">
+            <use href="./ico/icons.svg#like" />
+          </svg>
+          <output class="like__count">16</output>
+        </div>
+
+        <div class="article-full__socials">
+          <svg class="social__icon">
+            <use href="./ico/icons.svg#twitter" />
+          </svg>
+          <svg class="social__icon">
+            <use href="./ico/icons.svg#facebook" />
+          </svg>
+          <svg class="social__icon">
+            <use href="./ico/icons.svg#vk" />
+          </svg>
+        </div>
+      </div>
+      <button class="btn-show-all">Ко всем статьям
+        <svg class="btn-show-all__ico">
+          <use href="./ico/icons.svg#arrow-right" />
+        </svg>
+      </button>
+    </article>
+
+    <section class="feedbacks">
+      <div class="feedbacks__item">
+        <div class="feedbacks__body">
+          <img class="feedbacks__avatar" src="img/avatar-1.png" alt="avatar-1">
+          <h4 class="feedbacks__full-name">Иван Петров</h4>
+        </div>
+        <p class="feedbacks__comment">Отличная статья! Спасибо.</p>
+      </div>
+      <div class="feedbacks__item">
+        <div class="feedbacks__body">
+          <img class="feedbacks__avatar" src="img/avatar-2.png" alt="avatar-2">
+          <h4 class="feedbacks__full-name">Ксения Ксения</h4>
+        </div>
+        <p class="feedbacks__comment">Отличный текст, добавила в закладки.</p>
+      </div>
+      <div class="feedbacks__item">
+        <div class="feedbacks__body">
+          <img class="feedbacks__avatar" src="img/avatar-3.png" alt="avatar-3">
+          <h4 class="feedbacks__full-name">Иван Иванов</h4>
+        </div>
+        <p class="feedbacks__comment">Основательный материал! Можешь посоветовать какие-то книги на эту тему?</p>
+      </div>
+    </section>
+    <!-- ./feedbacks -->
+
+    <section class="feedback">
+      <h3 class="feedback__title">Оставить комментарий</h3>
+      <form action="" class="feedback__form">
+        <div class="feedback__form-left">
+          <label class="feedback__label">Имя
+            <input type="text" class="feedback__input-name" required>
+          </label>
+          <label class="feedback__label">Почта
+            <input type="email" class="feedback__input-email" required>
+          </label>
+          <button class="feedback__submit" disabled>Отправить</button>
+        </div>
+        <textarea class="feedback__textarea feedback__textarea--warning" minlength="10" maxlength="200" placeholder="Написать комментарий..." required></textarea>
+      </form>
+    </section>
+    <!-- ./feedback -->
+
+  </div>
+  <!-- ./container -->
+
+  <footer class="page-footer">
+    <div class="container">
+      <nav class="page-footer__nav">
+        <ul class="page-footer__nav-list">
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href=#">ВК</a>
+          </li>
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href=#">Телеграм</a>
+          </li>
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href=#">Инстаграм</a>
+          </li>
+          <li class="page-footer__nav-item">
+            <a class="page-footer__nav-link" href=#">Твиттер</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+  <!-- ./page-footer -->
+
+</body>
+
+</html>
