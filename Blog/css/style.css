@@ -53,7 +53,7 @@ img {
 
 /* STYLES */
 .page {
-  min-width: 430px;
+  min-width: 320px;
   font-family: var(--f-open-sans);
   font-size: 16px;
   line-height: 26px;
@@ -63,8 +63,8 @@ img {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
   max-width: 1200px;
   width: 100%;
 }
