@@ -422,6 +422,9 @@ img {
   justify-content: center;
 }
 @media (max-width: 900px) {
+  .write-me__form {
+    padding: 50px;
+  }
   .write-me__form-top {
     flex-direction: column;
   }
