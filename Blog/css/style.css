@@ -423,7 +423,7 @@ img {
 }
 @media (max-width: 900px) {
   .write-me__form {
-    padding: 50px;
+    padding: 30px;
   }
   .write-me__form-top {
     flex-direction: column;
