@@ -103,6 +103,9 @@ img {
     flex-direction: column;
     align-items: flex-end;
   }
+  .page-header__logo {
+    align-self: flex-start;
+  }
   .page-header__nav-item:not(:last-child) {
     margin-right: 0;
     margin-bottom: 15px;
