@@ -64,7 +64,7 @@ img {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  max-width: 1200px;
+  max-width: 1230px;
   width: 100%;
 }
 
@@ -140,17 +140,19 @@ img {
   height: 46px;
 }
 .articles__wrapper {
+  margin-bottom: 104px;
   overflow: hidden;
 }
 .articles__body {
-  margin: -10px;
-  margin-bottom: 62px;
+  margin-right: -20px;
+  margin-bottom: -62px;
   display: flex;
   flex-wrap: wrap;
 }
 .article {
-  margin: 10px;
-  flex: 1 1 350px;
+  margin-right: 20px;
+  margin-bottom: 62px;
+  width: calc(33.33% - 20px);
   display: flex;
   flex-direction: column;
 }
@@ -181,7 +183,6 @@ img {
 .article__time {
   display: inline-flex;
 }
-
 .articles__footer {
   margin-bottom: 116px;
   margin-left: -10px;
@@ -190,12 +191,8 @@ img {
   flex-wrap: wrap;
 }
 .article__big {
-  margin-left: 10px;
-  margin-right: 10px;
-  flex: 1 1 400px;
-  max-width: auto;
+  width: calc(50% - 20px);
   position: relative;
-  min-height: 552px;
   border-radius: 10px;
   overflow: hidden;
 }
@@ -229,6 +226,27 @@ img {
   color: var(--c-white-v2);
 }
 
+@media (max-width: 950px) {
+  .articles__body {
+    margin-bottom: -20px;
+  }
+  .article {
+    margin-bottom: 20px;
+    width: calc(50% - 20px);
+  }
+  .article__big {
+    width: calc(100% - 20px);
+  }
+  .article__big-inner {
+    padding: 150px 40px 40px;
+  }
+}
+@media (max-width: 660px) {
+
+  .article {
+    width: calc(100% - 20px);
+  }
+}
 /* about-me */
 .about-me {
   margin-bottom: 85px;
@@ -296,18 +314,19 @@ img {
   align-items: center;
 }
 .portfolio__wrapper {
+  margin-bottom: 104px;
   overflow: hidden;
 }
 .portfolio__list {
-  margin: -10px;
-  margin-bottom: 104px;
+  margin-right: -20px;
+  margin-bottom: -20px;
   display: flex;
   flex-wrap: wrap;
 }
 .portfolio__item {
-  margin: 10px;
-  flex: 1 1 375px;
-  height: 525px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px);
   border-radius: 10px;
   overflow: hidden;
 }
@@ -331,8 +350,12 @@ img {
   z-index: -1;
   border-radius: 10px;
 }
+.portfolio__body {
+  padding: 140px 10px 134px;
+  display: flex;
+  flex-direction: column;
+}
 .portfolio__title {
-  margin-top: 140px;
   margin-bottom: 44px;
   font-family: var(--f-spectral-bold);
   font-size: 20px;
@@ -359,6 +382,14 @@ img {
   color: var(--c-white);
 }
 @media (max-width: 950px) {
+  .portfolio__item {
+    width: calc(50% - 20px);
+  }
+}
+@media (max-width: 660px) {
+  .portfolio__item {
+    width: calc(100% - 20px);
+  }
 }
 
 /* write-me */
