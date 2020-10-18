@@ -42,11 +42,6 @@
 ul {
   list-style: none;
 }
-input,
-button,
-textarea {
-  font-family: inherit;
-}
 a {
   color: var(--c-black);
   text-decoration: none;
