@@ -2,6 +2,8 @@
 
 [Drons](https://zion86.github.io/portfolio/drons/index.html)
 
+[GLO Academy - Picadu project](https://zion86.github.io/GLO-ACADEMY-workshops/picadu/index.html)
+
 [Blog - [HTML Academy marathon 2.0]](https://zion86.github.io/portfolio/Blog/index.html)
 
 [CULTURE NEWS](https://zion86.github.io/portfolio/Culture-news/dist/index.html)
