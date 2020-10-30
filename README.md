@@ -1,5 +1,8 @@
 # portfolio
 
+[Delivery food](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html)
+  - HTML5, CSS, flexbox, svg sprite, media queries, transition
+
 [Drons](https://zion86.github.io/portfolio/drons/index.html)
 
 [GLO Academy - Picadu project](https://zion86.github.io/GLO-ACADEMY-workshops/picadu/index.html)
