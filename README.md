@@ -2,6 +2,9 @@
 
 [Delivery food](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html)
   - HTML5, CSS, flexbox, svg sprite, media queries, transition
+  
+[Goods flexbox layout](https://zion86.github.io/HTML-CSS-page-layout/adaptive-cards-layout/index.html)
+  - HTML5, CSS, flexbox, hover effect, transition, adaptive webpage with media queries
 
 [Drons](https://zion86.github.io/portfolio/drons/index.html)
 
