@@ -1,11 +1,14 @@
 # portfolio
 
-[Delivery food](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html)
-[second-page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html)
-  - HTML5, CSS, flexbox, svg sprite, media queries, transition
-  
+### Delivery food website
+[Main page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html), 
+[Restaurant page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html)
+- HTML5, CSS, javascript
+- flexbox, svg sprite, media queries, transition
+- Modal window
+
 [Goods flexbox layout](https://zion86.github.io/HTML-CSS-page-layout/adaptive-cards-layout/index.html)
-  - HTML5, CSS, flexbox, hover effect, transition, adaptive webpage with media queries
+- HTML5, CSS, flexbox, hover effect, transition, adaptive webpage with media queries
 
 [Drons](https://zion86.github.io/portfolio/drons/index.html)
 
