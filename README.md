@@ -10,6 +10,11 @@
 [Goods flexbox layout](https://zion86.github.io/HTML-CSS-page-layout/adaptive-cards-layout/index.html)
 - HTML5, CSS, flexbox, hover effect, transition, adaptive webpage with media queries
 
+[Drons v2](https://zion86.github.io/portfolio/drons-v2/index.html)
+- HTML5, CSS
+- flexbox, svg, media queries, transition
+- support IE11
+
 [Drons](https://zion86.github.io/portfolio/drons/index.html)
 
 [GLO Academy - Picadu project](https://zion86.github.io/GLO-ACADEMY-workshops/picadu/index.html)
