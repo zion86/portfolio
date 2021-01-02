@@ -33,8 +33,9 @@
 
 ### Picadu project
 [GLO Academy - Picadu project](https://zion86.github.io/GLO-ACADEMY-workshops/picadu/index.html)
-- HTML5, CSS, SVG
-- flexbox, svg, transition animation
+- HTML5, CSS, SVG, JAVASCRIPT
+- flexbox, svg, transition animation, hover effect
+- hidden menu using js
 - adaptive design using media queries
 
 [Blog - [HTML Academy marathon 2.0]](https://zion86.github.io/portfolio/Blog/index.html)
