@@ -42,11 +42,11 @@ btnSubmitFeedback.addEventListener('click', (e) => {
 
   feedbbacks.insertAdjacentHTML('beforeend', `
   <div class="feedbacks__item">
-  <div class="feedbacks__body">
-  <img class="feedbacks__avatar" src="./ico/avatar-icon.webp" alt="avatar logo">
-  <h4 class="feedbacks__full-name">${userName.value}</h4>
-  </div>
-  <p class="feedbacks__comment">${userComment.value}</p>
+    <div class="feedbacks__body">
+      <img class="feedbacks__avatar" src="./ico/avatar-icon.webp" alt="avatar logo">
+      <h4 class="feedbacks__full-name">${userName.value}</h4>
+    </div>
+    <p class="feedbacks__comment">${userComment.value}</p>
   </div>
   `);
 

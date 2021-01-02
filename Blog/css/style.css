@@ -124,6 +124,7 @@ img {
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .articles__droplist {
   width: 100%;
