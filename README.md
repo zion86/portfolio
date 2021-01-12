@@ -1,5 +1,9 @@
 # Portfolio:
 
+## Reacj.js simple table with data and sorting
+[Sortable table](https://zion86.github.io/React.js-solutions/Sorting-data/)
+- React.js: state, setState, sort method, render
+
 ## Fullscreen navigation menu
 [Navigation menu](https://zion86.github.io/JavaScript-solutions/Menu-navigation/fullscreen-navigation-menu/index.html)
 - HTML5, CSS, JAVASCRIPT
