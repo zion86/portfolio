@@ -1,6 +1,6 @@
 # Portfolio:
 
-## Reacj.js simple table with data and sorting
+## React.js simple table with data and sorting
 [Sortable table](https://zion86.github.io/React.js-solutions/Sorting-data/)
 - React.js: state, setState, sort method, render
 
