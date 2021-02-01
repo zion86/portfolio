@@ -1,0 +1,22 @@
+.label {
+  padding: 5px 12px;
+  font-size: 12px;
+  line-height: 1.25;
+  font-weight: 600;
+  color: $c-white-v1;
+  text-align: center;
+  background-color: $c-green-v1;
+  border-radius: 3px;
+
+  &--mb30 {
+    margin-bottom: 30px;
+  }
+
+  &--mb20 {
+    margin-bottom: 20px;
+
+    @media(max-width: $bp-xl) {
+      margin-bottom: 0;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+// SYSTEM STYLES
+@import "scss/01-variables.scss";
+@import "scss/02-reset-css.scss";
+// @import "scss/03-pixel-perfect.scss";
+// @import "scss/04-grid-layout.scss";
+
+// FONST
+@import "fonts/font.scss";
+
+// CSS COMPONENTS
+@import "components/page/page.scss";
+@import "components/container/container.scss";
+@import "components/header/header.scss";
+@import "components/menu/menu.scss";
+@import "components/burger-menu/burger-menu.scss";
+@import "components/btn/btn.scss";
+@import "components/slider/slider.scss";
+@import "components/label/label.scss";
+@import "components/modal/modal.scss";
+@import "components/goods-layout/goods-layout.scss";
+@import "components/catalog/catalog.scss";
+@import "components/footer/footer.scss";

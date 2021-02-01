@@ -1,0 +1,15 @@
+{
+  "rules": {
+    "indentation": 2,
+    "string-quotes": "double",
+    "comment-no-empty": true,
+    "function-url-quotes": "always",
+    "function-whitespace-after": "always",
+    "declaration-colon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "declaration-block-semicolon-newline-after": "always",
+    "block-no-empty": true,
+    "rule-empty-line-before": "always",
+    "block-closing-brace-newline-before": "always"
+  }
+}

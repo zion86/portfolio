@@ -1,0 +1,23 @@
+.btn {
+  padding: 10px 20px;
+  font-weight: 900;
+  color: $c-white-v1;
+  background-color: $c-blue-v1;
+  border-radius: 20px;
+
+  @media (max-width: $bp-sm) {
+
+    &__text--hide {
+      display: none;
+    }
+  }
+
+  &--pd25 {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+}
+
+.btn > * + * {
+  margin-left: 10px;
+}

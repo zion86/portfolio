@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "Lato";
+  src: local("Lato Regular"),
+    local("Lato-Regular"),
+    url("Lato-Regular.woff2") format("woff2"),
+    url("Lato-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  src: local("Roboto Slab Bold"),
+    local("RobotoSlab-Bold"),
+    url("RobotoSlab-Bold.woff2") format("woff2"),
+    url("RobotoSlab-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}

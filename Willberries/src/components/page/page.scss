@@ -1,0 +1,12 @@
+.page {
+  font-family: $f-lato;
+  font-size: 14px;
+  line-height: 1.43;
+  color: $c-black-v1;
+  background-color: $c-white-v1;
+  scroll-behavior: smooth;
+}
+
+.page--lock {
+  overflow: hidden;
+}

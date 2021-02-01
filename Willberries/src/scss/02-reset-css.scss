@@ -1,0 +1,65 @@
+// Reset CSS
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+}
+
+nav, main, aside, footer, header, section {
+  display: block;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: top;
+}
+
+input, button, select, textarea {
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+button {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+th, td {
+  padding: 0;
+  text-align: left;
+  vertical-align: baseline;
+}
+
+th {
+  font-weight: inherit;
+}
+
+table, th, td {
+  border: 1px solid var(--c-black-v1);
+}
