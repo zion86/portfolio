@@ -9,10 +9,6 @@
 - js: modal menu window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window
 - webpack 5: SCSS, babel, image compressor, postCss, stylelint
 
-## React.js simple table with data and sorting
-[Sortable table](https://zion86.github.io/React.js-solutions/Sorting-data/)
-- React.js: state, setState, sort method, render
-
 ## Fullscreen navigation menu
 [Navigation menu](https://zion86.github.io/JavaScript-solutions/Menu-navigation/fullscreen-navigation-menu/index.html)
 - HTML5, CSS, JAVASCRIPT
@@ -40,9 +36,6 @@
 - html: semantic layout
 - css: flexbox, BEM, transition animation, hover effect, adaptive design using media queries
 - support IE11
-
-## Drons V1
-[Drons](https://zion86.github.io/portfolio/drons/index.html)
 
 ## SpaceX project
 [SpaceX](https://zion86.github.io/portfolio/Spacex/index.html)
