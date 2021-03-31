@@ -11,7 +11,7 @@
 
 ### Delivery food website
 [Main page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html), 
-[Restaurant page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html)
+[Restaurant page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html) | [code](https://github.com/zion86/GLO-ACADEMY-workshops/tree/main/delivery-food)
 - HTML5, CSS, SVG, JAVASCRIPT
 - html: table, semantic layout
 - css: flexbox, BEM, svg sprite, transition animation, hover effect, responsive design
