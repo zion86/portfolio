@@ -24,7 +24,7 @@
 - css: flexbox, BEM, hover effect, transition animation, adaptive design
 
 ### Drons V2 website
-[Drons v2](https://zion86.github.io/portfolio/drons-v2/index.html)
+[Drons v2](https://zion86.github.io/portfolio/drons-v2/index.html) | [code](https://github.com/zion86/portfolio/tree/master/drons-v2)
 - HTML5, CSS, SVG
 - html: semantic layout
 - css: flexbox, BEM, transition animation, hover effect, adaptive design using media queries
