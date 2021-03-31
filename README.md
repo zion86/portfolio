@@ -44,7 +44,7 @@
 - js: hidden mobile menu
 
 ### Blog website
-[Blog - [HTML Academy marathon 2.0]](https://zion86.github.io/portfolio/Blog/index.html)
+[Blog - [HTML Academy marathon 2.0]](https://zion86.github.io/portfolio/Blog/index.html) | [code](https://github.com/zion86/portfolio/tree/master/Blog)
 - HTML5, CSS, SVG, JAVASCRIPT
 - html: forms, semantic layout
 - css: flexbox, BEM, @font-face, responsive images, respovsive design
