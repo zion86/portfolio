@@ -38,7 +38,7 @@
 - js: parallax
 
 ### Picadu project
-[GLO Academy - Picadu project](https://zion86.github.io/GLO-ACADEMY-workshops/picadu/index.html)
+[GLO Academy - Picadu project](https://zion86.github.io/GLO-ACADEMY-workshops/picadu/index.html) | [code](https://github.com/zion86/GLO-ACADEMY-workshops/tree/main/picadu)
 - HTML5, CSS, SVG, JAVASCRIPT
 - css: flexbox, BEM, responsive images, transition animation, hover effects, responsive design
 - js: hidden mobile menu
