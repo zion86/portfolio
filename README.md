@@ -31,7 +31,7 @@
 - support IE11
 
 ### SpaceX project
-[SpaceX](https://zion86.github.io/portfolio/Spacex/index.html)
+[SpaceX](https://zion86.github.io/portfolio/Spacex/index.html) | [code](https://github.com/zion86/GLO-ACADEMY-workshops/tree/main/spacex)
 - HTML5, CSS, SVG, JAVASCRIPT
 - html: table, video, semantic layout
 - css: flexbox, BEM, responsive images and video, responsive design
