@@ -8,7 +8,7 @@
 - swipre.js slider
 - js: modal menu window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window
 - webpack 5: SCSS, babel, image compressor, postCss, stylelint
---
+----
 ### Delivery food website
 [Main page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html), 
 [Restaurant page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html) | [code](https://github.com/zion86/GLO-ACADEMY-workshops/tree/main/delivery-food)
@@ -18,7 +18,7 @@
 - js: modal window, event listener
 ----
 ### Pizza - goods layout
-[Goods flexbox layout](https://zion86.github.io/HTML-CSS-page-layout/adaptive-cards-layout/index.html)
+[Goods flexbox layout](https://zion86.github.io/HTML-CSS-page-layout/adaptive-cards-layout/index.html) | [code](https://github.com/zion86/HTML-CSS-page-layout/tree/master/adaptive-cards-layout)
 - HTML5, CSS, SVG
 - html: semantic layout
 - css: flexbox, BEM, hover effect, transition animation, adaptive design
