@@ -57,7 +57,7 @@
 - css: flexbox, BEM, responsive images, hover effects, simple responsive design
 
 ### Ghostbusters - the movie
-[Ghostbusters - the movie](https://zion86.github.io/portfolio/Ghoustbusters%20-%20The%20Movie/index.html)
+[Ghostbusters - the movie](https://zion86.github.io/portfolio/Ghoustbusters%20-%20The%20Movie/index.html) | [code](https://github.com/zion86/portfolio/tree/master/Ghoustbusters%20-%20The%20Movie)
 - HTML5, CSS, SVG, JAVASCRIPT
 - html: table, semantic layout
 - css: flexbox, BEM, responsive images, respovsive design
