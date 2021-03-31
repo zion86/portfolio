@@ -9,13 +9,6 @@
 - js: modal menu window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window
 - webpack 5: SCSS, babel, image compressor, postCss, stylelint
 
-## Fullscreen navigation menu
-[Navigation menu](https://zion86.github.io/JavaScript-solutions/Menu-navigation/fullscreen-navigation-menu/index.html)
-- HTML5, CSS, JAVASCRIPT
-- html: semantic layout
-- css: flexbox, BEM, transition animation, hover effect
-- js: modal window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window, support IE11
-
 ## Delivery food website
 [Main page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html), 
 [Restaurant page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html)
