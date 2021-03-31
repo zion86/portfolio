@@ -51,7 +51,7 @@
 - js: simple validation form, work with DOM, filter dropdownlist
 
 ### CULTURE NEWS
-[CULTURE NEWS - [HTML Academy marathon 1.0]](https://zion86.github.io/portfolio/Culture-news/dist/index.html)
+[CULTURE NEWS - [HTML Academy marathon 1.0]](https://zion86.github.io/portfolio/Culture-news/dist/index.html) | [code](https://github.com/zion86/portfolio/tree/master/Culture-news)
 - HTML5, CSS, SVG
 - html: semantic layout
 - css: flexbox, BEM, responsive images, hover effects, simple responsive design
