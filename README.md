@@ -61,9 +61,12 @@
 - HTML5, CSS, SVG, JAVASCRIPT
 - html: table, semantic layout
 - css: flexbox, BEM, responsive images, respovsive design
-- js: fullscreen mobile menu, 'resize' event listener, work with DOM 
+- js: fullscreen mobile menu, 'resize' event listener, work with DOM
 
-----
+## Incredible Types
 [Incredible Types](https://zion86.github.io/Social-Hackers-Academy-Coding-School/Module-1-HTML-CSS/week_3_my_remake/index.html#)
+- HTML5, CSS
+- html: semantic layout
+- css: flexbox, css variables, filter, transition, responsive design
 
 [DISTANCE-SOCIAL](https://zion86.github.io/portfolio/Distance-social/index.html)
