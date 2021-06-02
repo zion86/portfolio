@@ -69,4 +69,14 @@
 - html: semantic layout
 - css: flexbox, css variables, filter, transition, responsive design
 
+## DISTANCE-SOCIAL (draft)
 [DISTANCE-SOCIAL](https://zion86.github.io/portfolio/Distance-social/index.html)
+
+## parkhall.zzz.com.ua
+[Parkhall apartments](http://parkhall.zzz.com.ua/)
+My first commercial project
+- HTML5, CSS, JAVASCRIPT
+- html: semantic layout, google maps
+- css: flexbox, bem, responsive design, sticky footer
+- js: simple slider in main page
+- Facebook Chat Plugin
