@@ -2,7 +2,7 @@
 
 | Willberries |
 | ------------- |
-| [Willberries](https://zion86.github.io/portfolio/Willberries/dist/index.html) - [code](https://github.com/zion86/portfolio/tree/master/Willberries) |
+| [Willberries](https://zion86.github.io/portfolio/Willberries/dist/index.html) / [code example](https://github.com/zion86/portfolio/tree/master/Willberries) |
 | - HTML5, CSS, SVG, WEBPACK5, JAVASCRIPT |
 | - html: semantic layout, svg-sprite |
 | - css: flexbox, BEM, css components, @font-face |
