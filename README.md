@@ -7,7 +7,8 @@
 | - html: semantic layout, svg-sprite | - html: table, semantic layout |
 | - css: flexbox, BEM, css components, @font-face | - css: flexbox, BEM, svg sprite, transition animation, hover effect, responsive design |
 | - swipre.js slider | - js: modal window, event listener |
-| - js: modal menu window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window | |
+| - js: modal menu window, event listener, locked scroll when open modal menu, 
+scroll doesn't jump when open, close modal window | |
 | - webpack 5: SCSS, babel, image compressor, postCss, stylelint | |
 
 ## Pizza - goods layout
