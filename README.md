@@ -1,26 +1,14 @@
 # Portfolio:
 
-| Willberries |
-| ------------- |
-| [Willberries](https://zion86.github.io/portfolio/Willberries/dist/index.html) / [code example](https://github.com/zion86/portfolio/tree/master/Willberries) |
-| - HTML5, CSS, SVG, WEBPACK5, JAVASCRIPT |
-| - html: semantic layout, svg-sprite |
-| - css: flexbox, BEM, css components, @font-face |
-| - swipre.js slider |
-| - js: modal menu window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window |
-| - webpack 5: SCSS, babel, image compressor, postCss, stylelint |
-
-
-
-
-
-## Delivery food website
-[Main page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html), 
-[Restaurant page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html) | [code](https://github.com/zion86/GLO-ACADEMY-workshops/tree/main/delivery-food)
-- HTML5, CSS, SVG, JAVASCRIPT
-- html: table, semantic layout
-- css: flexbox, BEM, svg sprite, transition animation, hover effect, responsive design
-- js: modal window, event listener
+| Willberries | Delivery food website |
+| ------------- | ------------- |
+| [Willberries](https://zion86.github.io/portfolio/Willberries/dist/index.html) / [code example](https://github.com/zion86/portfolio/tree/master/Willberries) | [Main page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/index.html), [Restaurant page](https://zion86.github.io/GLO-ACADEMY-workshops/delivery-food/restaurant.html) / [code](https://github.com/zion86/GLO-ACADEMY-workshops/tree/main/delivery-food) |
+| - HTML5, CSS, SVG, WEBPACK5, JAVASCRIPT | - HTML5, CSS, SVG, JAVASCRIPT |
+| - html: semantic layout, svg-sprite | - html: table, semantic layout |
+| - css: flexbox, BEM, css components, @font-face | - css: flexbox, BEM, svg sprite, transition animation, hover effect, responsive design |
+| - swipre.js slider | - js: modal window, event listener |
+| - js: modal menu window, event listener, locked scroll when open modal menu, scroll doesn't jump when open, close modal window | |
+| - webpack 5: SCSS, babel, image compressor, postCss, stylelint | |
 
 ## Pizza - goods layout
 [Goods flexbox layout](https://zion86.github.io/HTML-CSS-page-layout/adaptive-cards-layout/index.html) | [code](https://github.com/zion86/HTML-CSS-page-layout/tree/master/adaptive-cards-layout)
