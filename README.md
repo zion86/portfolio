@@ -1,7 +1,7 @@
 # Portfolio:
 
 ## Cards gallery
-[Cards gallery with hover effect](https://zion86.github.io/portfolio/cards-gallery-with-hover-effect/index.html)
+[Cards gallery with hover effect](https://zion86.github.io/portfolio/cards-gallery-with-hover-effect/index.html) | [code](https://github.com/zion86/portfolio/tree/master/cards-gallery-with-hover-effect)
 - HTML5, CSS
 - html: semantic layout
 - css: flexbox, BEM, hover effect, css filter, adaptive design
