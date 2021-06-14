@@ -1,5 +1,11 @@
 # Portfolio:
 
+## Cards gallery
+[Cards gallery with hover effect](https://zion86.github.io/portfolio/cards-gallery-with-hover-effect/index.html)
+- HTML5, CSS
+- html: semantic layout
+- css: flexbox, BEM, hover effect, css filter, adaptive design
+
 ## Willberries
 [Willberries](https://zion86.github.io/portfolio/Willberries/dist/index.html) | [code](https://github.com/zion86/portfolio/tree/master/Willberries)
 - HTML5, CSS, SVG, WEBPACK5, JAVASCRIPT
